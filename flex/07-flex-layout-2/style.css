@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -14,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 32px;
   padding: 0 16px;
 }
 
@@ -53,25 +52,27 @@ body {
   gap: 1rem;
 }
 
+.sidebar li {
+  margin-bottom: 16px;;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  border: 1px red solid;
-  padding: 32px;
   width: 200px;
   height: 200px;
-  flex-grow: 1;
 }
 
 .main {
   display: flex;
-  flex-grow: 1;
+  flex: 1;
+  
 }
 
 .content {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start
+  padding: 48px;
+  gap: 32px;
 }
