@@ -7,7 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 img {
@@ -35,6 +34,12 @@ ul, li {
   padding: 0;
 }
 
+ul {
+  display: flex;
+  list-style: none;
+  gap: 16px
+}
+
 a {
   text-decoration: none;
   color: #707070;
@@ -42,7 +47,6 @@ a {
 
 .header, .footer {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding: 1rem 1rem;
 }
